@@ -17,3 +17,4 @@
 # 7. run cd notSusDdos
 # 8. run python fitsbit.py
 # 9. read the further instructions
+# set port to 8080
