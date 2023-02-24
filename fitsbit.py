@@ -2,7 +2,6 @@ import sys
 import os
 import time
 import socket
-import random
 
 # Code Time
 from datetime import datetime
@@ -16,7 +15,7 @@ year = now.year
 
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
+bytes = os.urandom(9999)
 #############
 
 os.system("clear")
